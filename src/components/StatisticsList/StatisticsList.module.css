@@ -1,0 +1,18 @@
+.stat_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+li {
+  width: 70px;
+}
+
+.label {
+  padding: 10px 20px;
+}
+
+.percentage {
+  font-weight: bold;
+}
