@@ -1,11 +1,13 @@
-import css from './FriendListItem.module.css';
+import { ListItem } from "./FriendListItem.styled";
 
-export const FriendListItem = () => {
-  return (
-    <li className="css.item">
-      <span className="css.status"></span>
-      <img className="css.avatar" src="" alt="User avatar" width="48" />
-      <p className="css.name"></p>
-    </li>
-  );
+export const FriendListItem = ({ friends }) => {
+  console.log(friends);
+
+  return friends.map(friend => (
+    <ListItem key={friend.id}> 
+      <span></span>
+      <img src={friend.avatar} alt="User avatar" width="48" />
+      <p>{friend.name}</p>
+    </ListItem>
+  ));
 };

@@ -1,5 +1,7 @@
-import css from './FriendList.module.css';
+import { List } from "./FriendList.styled";
 
-export const FriendsList = ({ friends }) => {
-  return <ul className={css.friend_list}>{'Список друзей'}</ul>;
+export const FriendsList = ({ children }) => {
+  return <List>
+    {children}
+  </List>;
 };
