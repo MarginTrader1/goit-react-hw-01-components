@@ -1,7 +1,7 @@
 import { Table, CellHead, CellBody, RowBody } from './TransactionHistory.styled';
 
 export const TransactionHistory = ({ transaction }) => {
-  console.log(transaction);
+  
   return (
     <Table>
       <thead>
