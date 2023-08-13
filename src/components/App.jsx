@@ -13,7 +13,8 @@ import transaction from '../transactions.json'
 export const App = () => {
   return (
     <div>
-      {/* 1 - Профиль социальной сети npm start */}
+      
+      {/* 1 - Профиль социальной сети - стилизация выполнена CSS-модулями */}
       <Profile
         username={user.username}
         tag={user.tag}
@@ -22,17 +23,17 @@ export const App = () => {
         stats={user.stats}
       />
 
-      {/* 2- Секция статистики */}
+      {/* 2- Секция статистики - стилизация выполнена CSS-модулями*/}
       <Statistic title={'Upload stats'}>
         <StatisticsList data={data} />
       </Statistic>
 
-      {/* 3 - Список друзей */}
+      {/* 3 - Список друзей - стилизация выполнена Styled Components*/}
       <FriendsList friends={friends}>
         <FriendListItem friends={friends} />
       </FriendsList>
 
-      {/* 4 История транзакций */}
+      {/* 4 История транзакций - стилизация выполнена Styled Components */}
       <TransactionHistory transaction={transaction}/>
     </div>
   );

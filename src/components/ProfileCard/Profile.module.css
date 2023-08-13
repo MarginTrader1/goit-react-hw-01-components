@@ -7,9 +7,14 @@ li {
 }
 
 .profile {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
   display: flex;
   flex-direction: column;
   gap: 10px;
+  border: 1px solid #0000001c; 
 }
 
 .description {
@@ -23,6 +28,8 @@ li {
 }
 
 .avatar {
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 50%;
   width: 200px;
 }
@@ -34,16 +41,24 @@ li {
 
 .tag {
   font-size: 18px;
+  color: gray;
 }
 
 .location {
   font-size: 18px;
+  color: gray;
+  margin-bottom: 20px;
 }
 
 .stats {
   display: flex;
-  gap: 16px;
   justify-content: center;
+}
+
+.item {
+  padding: 20px 15px;
+  background-color: aliceblue;
+  border: 1px solid #0000001c; 
 }
 
 .label {

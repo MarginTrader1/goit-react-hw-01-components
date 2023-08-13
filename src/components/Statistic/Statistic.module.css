@@ -1,5 +1,12 @@
+.statistics {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 1px solid #0000001c; 
+}
+
 .title {
-    margin-top: 30px;
-    text-align: center;
-    text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
 }
