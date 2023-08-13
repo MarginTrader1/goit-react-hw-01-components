@@ -5,3 +5,10 @@ export const ListItem = styled.li`
   flex-direction: row;
   gap: 10px;
 `;
+export const Circle = styled.div`
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: ${props => (props.status === 'true' ? 'green' : 'red')};
+`;
