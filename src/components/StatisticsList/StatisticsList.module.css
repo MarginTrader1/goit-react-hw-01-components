@@ -2,15 +2,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
 }
 
-li {
+.stat_item {
   width: 70px;
+  padding: 10px;
+
+  background-color: aliceblue;
+  border: 1px solid #80808082;
+
+  
 }
 
 .label {
-  padding: 10px 20px;
+  margin-bottom: 10px;
 }
 
 .percentage {

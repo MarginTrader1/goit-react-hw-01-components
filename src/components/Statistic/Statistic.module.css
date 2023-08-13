@@ -1,12 +1,15 @@
 .statistics {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 30px;
-  border: 1px solid #0000001c; 
 }
 
 .title {
+  width: 300px;
+  padding: 20px 40px;
+
+  margin-left: auto;
+  margin-right: auto;
+
   text-align: center;
   text-transform: uppercase;
+  color: #2c2a2a;
 }
