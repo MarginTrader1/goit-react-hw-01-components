@@ -8,12 +8,11 @@ import { TransactionHistory } from './Transaction/TransactionHistory';
 import user from '../data/user.json';
 import data from '../data/data.json';
 import friends from '../data/friends.json';
-import transaction from '../data/transactions.json'
+import transaction from '../data/transactions.json';
 
 export const App = () => {
   return (
     <div>
-      
       {/* 1 - Профиль социальной сети - стилизация выполнена CSS-модулями */}
       <Profile
         username={user.username}
@@ -34,7 +33,7 @@ export const App = () => {
       </FriendsList>
 
       {/* 4 История транзакций - стилизация выполнена Styled Components */}
-      <TransactionHistory transaction={transaction}/>
+      <TransactionHistory transaction={transaction} />
     </div>
   );
 };

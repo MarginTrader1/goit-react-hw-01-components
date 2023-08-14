@@ -8,6 +8,8 @@ export const StatisticsList = ({ data }) => {
         <li
           key={item.id}
           className={css.stat_item}
+
+          // инлайн стиль - реализация случайного цвета 
           style={{
             backgroundColor: getRandomHexColor(),
           }}
