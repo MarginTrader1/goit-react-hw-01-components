@@ -23,7 +23,7 @@ export const App = () => {
       />
 
       {/* 2- Секция статистики - стилизация выполнена CSS-модулями*/}
-      <Statistic title={data.title} stats={data}>
+      <Statistic title="Upload stats" stats={data}>
         <StatisticsList stats={data} />
       </Statistic>
 
