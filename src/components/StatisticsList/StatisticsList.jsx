@@ -1,15 +1,14 @@
 import css from './StatisticsList.module.css';
 import { getRandomHexColor } from 'components/Color';
 
-export const StatisticsList = ({ data }) => {
+export const StatisticsList = ({ stats }) => {
   return (
     <ul className={css.stat_list}>
-      {data.map(item => (
+      {stats.map(item => (
         <li
           key={item.id}
           className={css.stat_item}
-
-          // инлайн стиль - реализация случайного цвета 
+          // инлайн стиль - реализация случайного цвета
           style={{
             backgroundColor: getRandomHexColor(),
           }}
