@@ -7,9 +7,9 @@
 .stat_item {
   width: 70px;
   padding: 10px;
-
-  background-color: aliceblue;
   border: 1px solid #80808082;
+  color: aliceblue;
+  font-weight: 600;
 
   
 }
